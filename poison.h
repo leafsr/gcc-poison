@@ -9,15 +9,15 @@ it to be very effective */
 #ifdef __GNUC__
 
 /* String handling functions */
-#   pragma GCC poison strcpy wcscpy stpcpy wcpcpy
-#   pragma GCC poison scanf sscanf vscanf fwscanf swscanf wscanf
-#   pragma GCC poison gets puts
-#   pragma GCC poison strcat wcscat
-#   pragma GCC poison wcrtomb wctob
-#   pragma GCC poison sprintf vsprintf vfprintf
+#	pragma GCC poison strcpy wcscpy stpcpy wcpcpy
+#	pragma GCC poison scanf sscanf vscanf fwscanf swscanf wscanf
+#	pragma GCC poison gets puts
+#	pragma GCC poison strcat wcscat
+#	pragma GCC poison wcrtomb wctob
+#	pragma GCC poison sprintf vsprintf vfprintf
 #	pragma GCC poison asprintf vasprintf
-#   pragma GCC poison strncpy wcsncpy
-#   pragma GCC poison strtok wcstok
+#	pragma GCC poison strncpy wcsncpy
+#	pragma GCC poison strtok wcstok
 #	pragma GCC poison strdupa strndupa
 
 /* Signal related */
