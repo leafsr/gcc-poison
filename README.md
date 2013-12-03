@@ -3,7 +3,7 @@ gcc-poison
 
 gcc-poison is a simple header file for developers to ban unsafe C/C++ functions from applications. It uses the #pragma GCC poison directive define a number of words (function names) as unsafe. Compilation will fail if these names are present.
 
-Please see the blog post at http://blog.leafsr.com for more information
+Please see the blog post at http://blog.leafsr.com/2013/12/gcc-poison.html for more information
 
 http://leafsr.com
 
